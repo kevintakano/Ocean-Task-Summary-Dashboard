@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         }
         quantity++;
         displayQuantity();
+        
     }
     public void decrement(View view){
         if(quantity <= 1){
